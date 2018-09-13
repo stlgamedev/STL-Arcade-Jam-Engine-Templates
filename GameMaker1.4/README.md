@@ -2,7 +2,7 @@
 # GameMaker Studio 1.4 Template
 This is an example template for games made with GameMaker Studio 1.4 for the St. Louis Arcade Jam 2018. If you have suggestions feel free to submit issues with those requests or make the changes yourself and submit a pull request.
   
-Below are items that should stay unchanged in your project to insure it is compatible with the Winnitron game launcher in the arcade cabinet.  All other assets are included only for an example and can be discarded.
+Below are items that should stay unchanged in your project to ensure it is compatible with the Winnitron game launcher in the arcade cabinet.  All other assets are included only for example and can be discarded.
   
   
 ## Global Game Settings
