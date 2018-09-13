@@ -5,9 +5,15 @@ using UnityEngine;
 public class MoveCharacter : MonoBehaviour {
     public InputHelper inputHelper;
     public float speed = 1.0f;
-	
-	// Update is called once per frame
-	void Update () {
+    private Rigidbody2D rigidbody2D;
+
+    void Start()
+    {
+        rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update () {
         var vertical = 0;
         var horizontal = 0;
         if (Input.GetKey(inputHelper.up))
@@ -28,7 +34,7 @@ public class MoveCharacter : MonoBehaviour {
         }
         var angle = new Vector2((float)horizontal, (float)vertical);
         var change = angle.normalized * speed;
-        transform.position += new Vector3(change.x, change.y, 0);
+        rigidbody2D.velocity = change;
         
 	}
 }
