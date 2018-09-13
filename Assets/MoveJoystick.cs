@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveJoystick : MonoBehaviour
 {
+    public InputHelper inputHelper;
 
     public Sprite upLeft;
     public Sprite up;
@@ -28,19 +29,19 @@ public class MoveJoystick : MonoBehaviour
     {
         var vertical = 0;
         var horizontal = 0;
-        if (Input.GetKey("up"))
+        if (Input.GetKey(inputHelper.up))
         {
             vertical += 1;
         }
-        if (Input.GetKey("down"))
+        if (Input.GetKey(inputHelper.down))
         {
             vertical -= 1;
         }
-        if (Input.GetKey("left"))
+        if (Input.GetKey(inputHelper.left))
         {
             horizontal -= 1;
         }
-        if (Input.GetKey("right"))
+        if (Input.GetKey(inputHelper.right))
         {
             horizontal += 1;
         }
