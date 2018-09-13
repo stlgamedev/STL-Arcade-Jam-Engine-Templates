@@ -28,12 +28,12 @@ You can handle these controls however you like, I chose to put them into a scrip
 
 * ESCAPE to quit game
 
-* PLAYER 1
+* PLAYER 1  
   movement = arrow keys  
   button 1 = period/greater-than key ( *keyboard_check(190)* )  
   button 2 = question mark/slash key ( *keyboard_check(191)* )  
   
-* PLAYER 2
+* PLAYER 2  
   movement = W A S D  
   button 1 = tilde/grave accent key ( *keyboard_check(192)* )  
   button 2 = exclamation mark/1 key ( *keyboard_check(49)* )  
