@@ -29,8 +29,6 @@ Example template for games made for the St. Louis Arcade Jam 2018. If you have s
 |----------|---------------|------------|------------|
 | 1        | Arrow Keys    | .          | /          |
 | 2        | WASD          | `          | 1          |
-| 3        | IJKL          | G          | H          |
-| 4        | Numpad 8456   | Numpad 1   | Numpad 2   |
 
 | Key           | Action        |
 |---------------|---------------|
