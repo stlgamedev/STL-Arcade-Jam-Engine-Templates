@@ -61,9 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Fonts\freaky-fonts_emulogic\emulogic.gif" />
-    <Content Include="Content\Fonts\freaky-fonts_emulogic\Readme.html" />
-    <Content Include="Content\Fonts\freaky-fonts_emulogic\readme.txt" />
     <Content Include="Content\Sprites\button_down.png" />
     <Content Include="Content\Sprites\button_up.png" />
     <Content Include="Content\Sprites\joystickCenter.png" />
@@ -81,14 +78,10 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
-    <None Include="Content\Fonts\freaky-fonts_emulogic\emulogic.gif.meta" />
-    <None Include="Content\Fonts\freaky-fonts_emulogic\emulogic.spritefont" />
-    <Content Include="Content\Fonts\freaky-fonts_emulogic\emulogic.ttf">
+    <None Include="Content\Fonts\emulogic.spritefont" />
+    <Content Include="Content\Fonts\emulogic.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Content\Fonts\freaky-fonts_emulogic\emulogic.ttf.meta" />
-    <None Include="Content\Fonts\freaky-fonts_emulogic\Readme.html.meta" />
-    <None Include="Content\Fonts\freaky-fonts_emulogic\readme.txt.meta" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

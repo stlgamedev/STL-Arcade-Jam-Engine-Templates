@@ -157,10 +157,10 @@
 /processorParam:TextureFormat=Color
 /build:Sprites/whiteBoxCharacter.png
 
-#begin Fonts/freaky-fonts_emulogic/emulogic.spritefont
+#begin Fonts/emulogic.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:Fonts/freaky-fonts_emulogic/emulogic.spritefont
+/build:Fonts/emulogic.spritefont
 

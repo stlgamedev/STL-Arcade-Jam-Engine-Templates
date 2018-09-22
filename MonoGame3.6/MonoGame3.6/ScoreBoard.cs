@@ -36,7 +36,7 @@ namespace MonoGame3._6
 
     public void LoadContent(ContentManager content)
     {
-      font = content.Load<SpriteFont>("Fonts/freaky-fonts_emulogic/emulogic");
+      font = content.Load<SpriteFont>("Fonts/emulogic");
 
       Vector2 text1Size = font.MeasureString(TEXT1);
       text1Position     = new Vector2(MARGIN, MARGIN);
